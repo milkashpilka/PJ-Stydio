@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&display=swap');
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.crocks{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.wrapper {
+    max-width: 1100px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    gap: 40px;
+}
+
+.crocks-card {
+    display: flex;
+    flex-direction: column;
+}
+
+.crocks-card:nth-child(2) .crocks-card_block {
+    background-color: #F5E6FF;
+}
+
+.crocks-card:nth-child(3) .crocks-card_block {
+    background-color: #F7C29B;
+}
+
+.crocks-card:last-child .crocks-card_block {
+    background-color: #68EAEB;
+}
+
+
+.crocks-card_block {
+    width: 245px;
+    height: 282px;
+    background-color: #7BE498;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.crocks-card b {
+    color: #000;
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 35px;
+}
+
+.crocks-card_price p:first-child {
+    color: #FD4E61;
+    font-size: 19px;
+    font-weight: 400;
+}
+
+.crocks-card_price p:last-child {
+    color: #11293B;
+    font-size: 19px;
+    font-weight: 400;
+    text-decoration: line-through;
+}
+
+.crocks-card_price {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.crocks-card_color span {
+    color: #458EF6;
+    font-family: Josefin Sans;
+    font-size: 10px;
+    font-weight: 700;
+    padding: 10px 20px;
+    background-color: rgba(69, 142, 246, 0.26);
+    border-radius: 15px;
+}
+
+.crocks-card_color {
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card_color-colors {
+    display: flex;
+    gap: 10px;
+}
+
+.card_color-colors div {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+}
+
+.card_color-colors div:first-child {
+    background-color: #000;
+}
+
+.card_color-colors div:nth-child(2) {
+    background-color: #E61800;
+}
+
+.card_color-colors div:nth-child(3) {
+    background-color: #E67100;
+}
+
+.card_color-colors div:nth-child(4) {
+    background-color: #E6C400;
+}
+
+.card_color-colors div:last-child {
+    background-color: #70B200;
+}
+
+.crocks-card button {
+    color: #11293B;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 20px 55px;
+    background-color: #E7E9EB;
+    border-radius: 20px;
+    border: 0;
+    margin-top: 15px;
+}
